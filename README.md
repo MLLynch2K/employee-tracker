@@ -5,13 +5,13 @@ A command-line application to manage a company's employee database, using Node.j
 
 ***
 ### Table of Contents  
-1. [Installation]()
-2. [Usage]()
-3. [Screenshot]()
-4. [Features]()
-5. [License]()
-6. [Contributors]()
-7. [Questions]()  
+1. [Installation](https://github.com/MLLynch2K/employee-tracker#installation)
+2. [Usage](https://github.com/MLLynch2K/employee-tracker#usage)
+3. [Screenshot](https://github.com/MLLynch2K/employee-tracker#screenshot)
+4. [Video Walkthrough](https://github.com/MLLynch2K/employee-tracker#video-walkthrough)
+5. [Features](https://github.com/MLLynch2K/employee-tracker#features)
+6. [Contributors](https://github.com/MLLynch2K/employee-tracker#contributors)
+7. [Questions](https://github.com/MLLynch2K/employee-tracker#questions)  
 
 ***
 ### Installation 
@@ -24,7 +24,7 @@ The end-user will be led through prompts to help them to add, view, or modify th
 
 ***
 ### Screenshot  
-![Example Generated ReadMe from Application]()
+
 
 ***
 ### Video Walkthrough
