@@ -1,13 +1,13 @@
 const inquirer = require('inquirer');
 const cTable = require('console.table');
 
-//Inquirer prompt and questions
+//Prompt and questions
 function questionsOpening() {
     inquirer
     .prompt({
       type: "list",
       name: "search",
-      message: "What would you like to do?",
+      message: "Hello, What would you like to do?",
       choices: [
         "View all departments",
         "View all roles",
@@ -22,24 +22,24 @@ function questionsOpening() {
     }).then (function (answer) {
       switch (answer.search) {
             case "View all departments":
-              viewAllDepartments();
-              break;
+                viewAllDepartments();
+                break;
   
             case "View all roles":
-              viewAllRoles();
-              break;
+                viewAllRoles();
+                break;
   
             case "View all employees":
-               viewAllEmployees();
-               break;
+                viewAllEmployees();
+                break;
   
             case "Add a department":
-              addDepartment();
-              break;
+                addDepartment();
+                break;
   
             case "Add a role":
-              addRole();
-              break;
+                addRole();
+                break;
   
             case "Add an employee":
                 addEmployee();
@@ -50,7 +50,7 @@ function questionsOpening() {
                 break;
             
             case "Exit":
-                console.log("Bye!");
+                console.log("Goodbye!");
                 connection.end();
                 break
       }
