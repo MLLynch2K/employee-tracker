@@ -3,7 +3,7 @@ const promisemysql = require('mysql2/promise');
 
 const connection = mysql.createConnection({
     host: 'localhost',
-    port: 3301,
+    port: 3306,
     user: 'root',
     password: 'root',
     database: 'employee_tracker',
