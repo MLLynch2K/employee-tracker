@@ -4,12 +4,12 @@ CREATE DATABASE employee_tracker;
 USE employee_tracker;
 
 CREATE TABLE departments (
-    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    id INTEGER PRIMARY KEY,
     name VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE roles (
-    id INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    id INTEGER PRIMARY KEY NOT NULL,
     title VARCHAR(30) NOT NULL,
     salary DECIMAL (10,0),
     department_id INTEGER,
@@ -17,10 +17,9 @@ CREATE TABLE roles (
 );
 
 CREATE TABLE employees (
-    id INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    id INTEGER PRIMARY KEY NOT NULL,
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
     role_id INTEGER NOT NULL,
-    CONSTRAINT fk_role FOREIGN KEY (role_id) REFERENCES roles(id),
-    manager_id INTEGER
+    CONSTRAINT fk_role FOREIGN KEY (role_id) REFERENCES roles(id)
 );

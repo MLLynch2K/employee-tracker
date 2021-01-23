@@ -26,21 +26,21 @@ VALUES
 ('Human Resource Representative', 55000, 9)
 ('Temp', 25000, 10);
 
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
+INSERT INTO employees (first_name, last_name, role_id)
 VALUES
-('Michael', 'Scott', 2, 2),
-('Dwight', 'Schrute', 3, NULL),
-('Jim', 'Halpert', 3, 3),
-('Pam', 'Beesly', 1, NULL),
-('Ryan', 'Howard', 10, NULL),
-('Andy', 'Bernard', 3, NULL),
-('Angela', 'Martin', 4, NULL),
-('Kelly', 'Kapoor', 7, NULL),
-('Toby', 'Flenderson', 9, 9),
-('Creed', 'Bratton', 5, NULL),
-('Darryl', 'Philbin', 8, 8),
-('Kevin', 'Malone', 4, NULL),
-('Meredith', 'Palmer', 6, NULL),
-('Oscar', 'Martinez', 4, NULL),
-('Phyllis', 'Vance', 3, NULL),
-('Stanley', 'Hudson', 3, NULL);
+('Michael', 'Scott', 2),
+('Dwight', 'Schrute', 3),
+('Jim', 'Halpert', 3),
+('Pam', 'Beesly', 1),
+('Ryan', 'Howard', 10),
+('Andy', 'Bernard', 3),
+('Angela', 'Martin', 4),
+('Kelly', 'Kapoor', 7),
+('Toby', 'Flenderson', 9),
+('Creed', 'Bratton', 5),
+('Darryl', 'Philbin', 8),
+('Kevin', 'Malone', 4),
+('Meredith', 'Palmer', 6),
+('Oscar', 'Martinez', 4),
+('Phyllis', 'Vance', 3),
+('Stanley', 'Hudson', 3);
