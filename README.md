@@ -15,7 +15,10 @@ A command-line application to manage a company's employee database, using Node.j
 
 ***
 ### Installation 
-Install NPM, Inquirer, MySQL2, and Console Table
+Install NPM   
+Install Inquirer   
+Install MySQL2   
+Install Console Table   
 Run 'npm start' to enter the application
 
 ***
