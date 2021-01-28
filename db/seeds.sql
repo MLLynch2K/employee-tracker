@@ -21,10 +21,10 @@ VALUES
 ('Accounting Clerk', 50000, 4),
 ('Quality Assurance Clerk', 40000, 5),
 ('Purchaser', 35000, 6),
-('Customer Service Representative', 45000, 7),
+('Customer Service', 45000, 7),
 ('Warehouse Assistant', 40000, 8),
-('Human Resource Representative', 55000, 9),
-('Temp', 25000, 10);
+('Human Resource', 55000, 9),
+('The Temp', 25000, 10);
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES

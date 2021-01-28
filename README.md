@@ -27,10 +27,11 @@ The end-user will be led through prompts to help them to add, view, or modify th
 
 ***
 ### Screenshot  
-
+[Screenshot Employee Tracker Database]()  
 
 ***
 ### Video Walkthrough
+[Video](https://drive.google.com/file/d/1g1p_oGOrFInFvxkg2qdWyjHfXVtkVwo9/view)
 
 
 ***
