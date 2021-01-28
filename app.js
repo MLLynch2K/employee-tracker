@@ -53,7 +53,7 @@ function questionsOpening() {
               break;
           
           case "Exit":
-              console.log("Bye!");
+              console.log("See Ya!");
               connection.end();
               break
     }
