@@ -27,7 +27,7 @@ The end-user will be led through prompts to help them to add, view, or modify th
 
 ***
 ### Screenshot  
-[Screenshot Employee Tracker Database]("images/sampledatabase.png")  
+[Screenshot Employee Tracker Database](images/sampledatabase.png)  
 
 ***
 ### Video Walkthrough
